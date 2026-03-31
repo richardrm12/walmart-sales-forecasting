@@ -21,13 +21,20 @@ data/interim/*
 !data/interim/.gitkeep
 data/external/*
 !data/external/.gitkeep
-*.csv
 
 # Models and Outputs (Ignore contents but keep folders)
 models/*
 !models/.gitkeep
+!models/lightgbm_final.txt
+!models/xgboost_final.json
+!models/ensemble_weights.txt
 outputs/*
 !outputs/.gitkeep
+!outputs/submission.csv
+!outputs/model_comparison.csv
+!outputs/weights_search.csv
+!outputs/figures/
+!outputs/figures/*.png
 *.pkl
 *.joblib
 *.h5

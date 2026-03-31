@@ -1,0 +1,2 @@
+best_w_lgb=0.6
+best_w_xgb=0.4
